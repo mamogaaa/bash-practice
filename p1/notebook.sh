@@ -32,3 +32,12 @@ echo "$1,$2,$3" # выведет строку "arg1,arg2,arg3", где argi -- i
 # Задача 6
 # Сделать скрипт, который будет удалять студентов из таблицы
 # ./remove_student name
+
+# Задача 7
+# Написать скрипт, который выводит "(arg1, arg2)", где arg1, arg2 -- аргументы скрипта.
+# Решение
+# #!/bin/bash
+# echo "($1, $2)"
+
+git clone https://github.com/nordikafiles/bash-practice
+cp -R bash-practice/p1 .
